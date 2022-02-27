@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		478041FB27CA7691009C6E3E /* EyelashOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478041FA27CA7691009C6E3E /* EyelashOptions.swift */; };
+		478041FD27CA7718009C6E3E /* Info1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478041FC27CA7718009C6E3E /* Info1.swift */; };
+		478041FF27CA77A8009C6E3E /* IWillGoThere.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478041FE27CA77A8009C6E3E /* IWillGoThere.swift */; };
+		4780420127CA77E3009C6E3E /* LetHimComeHere.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4780420027CA77E3009C6E3E /* LetHimComeHere.swift */; };
+		478EDE182786084800BF44DE /* LeenasEyelashApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478EDE172786084800BF44DE /* LeenasEyelashApp.swift */; };
+		478EDE1A2786084800BF44DE /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478EDE192786084800BF44DE /* LoginView.swift */; };
+		478EDE1C2786084A00BF44DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 478EDE1B2786084A00BF44DE /* Assets.xcassets */; };
+		478EDE1F2786084A00BF44DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 478EDE1E2786084A00BF44DE /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		478041FA27CA7691009C6E3E /* EyelashOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyelashOptions.swift; sourceTree = "<group>"; };
+		478041FC27CA7718009C6E3E /* Info1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info1.swift; sourceTree = "<group>"; };
+		478041FE27CA77A8009C6E3E /* IWillGoThere.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IWillGoThere.swift; sourceTree = "<group>"; };
+		4780420027CA77E3009C6E3E /* LetHimComeHere.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetHimComeHere.swift; sourceTree = "<group>"; };
+		478EDE142786084800BF44DE /* LeenasEyelash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeenasEyelash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		478EDE172786084800BF44DE /* LeenasEyelashApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeenasEyelashApp.swift; sourceTree = "<group>"; };
+		478EDE192786084800BF44DE /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		478EDE1B2786084A00BF44DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		478EDE1E2786084A00BF44DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		478EDE112786084800BF44DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		478EDE0B2786084800BF44DE = {
+			isa = PBXGroup;
+			children = (
+				478EDE162786084800BF44DE /* LeenasEyelash */,
+				478EDE152786084800BF44DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		478EDE152786084800BF44DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				478EDE142786084800BF44DE /* LeenasEyelash.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		478EDE162786084800BF44DE /* LeenasEyelash */ = {
+			isa = PBXGroup;
+			children = (
+				478041FC27CA7718009C6E3E /* Info1.swift */,
+				478041FA27CA7691009C6E3E /* EyelashOptions.swift */,
+				478EDE172786084800BF44DE /* LeenasEyelashApp.swift */,
+				478EDE192786084800BF44DE /* LoginView.swift */,
+				4780420027CA77E3009C6E3E /* LetHimComeHere.swift */,
+				478041FE27CA77A8009C6E3E /* IWillGoThere.swift */,
+				478EDE1B2786084A00BF44DE /* Assets.xcassets */,
+				478EDE1D2786084A00BF44DE /* Preview Content */,
+			);
+			path = LeenasEyelash;
+			sourceTree = "<group>";
+		};
+		478EDE1D2786084A00BF44DE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				478EDE1E2786084A00BF44DE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		478EDE132786084800BF44DE /* LeenasEyelash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 478EDE222786084A00BF44DE /* Build configuration list for PBXNativeTarget "LeenasEyelash" */;
+			buildPhases = (
+				478EDE102786084800BF44DE /* Sources */,
+				478EDE112786084800BF44DE /* Frameworks */,
+				478EDE122786084800BF44DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeenasEyelash;
+			productName = LeenasEyelash;
+			productReference = 478EDE142786084800BF44DE /* LeenasEyelash.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		478EDE0C2786084800BF44DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					478EDE132786084800BF44DE = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 478EDE0F2786084800BF44DE /* Build configuration list for PBXProject "LeenasEyelash" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 478EDE0B2786084800BF44DE;
+			productRefGroup = 478EDE152786084800BF44DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				478EDE132786084800BF44DE /* LeenasEyelash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		478EDE122786084800BF44DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478EDE1F2786084A00BF44DE /* Preview Assets.xcassets in Resources */,
+				478EDE1C2786084A00BF44DE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		478EDE102786084800BF44DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478041FB27CA7691009C6E3E /* EyelashOptions.swift in Sources */,
+				478041FF27CA77A8009C6E3E /* IWillGoThere.swift in Sources */,
+				478EDE1A2786084800BF44DE /* LoginView.swift in Sources */,
+				478EDE182786084800BF44DE /* LeenasEyelashApp.swift in Sources */,
+				4780420127CA77E3009C6E3E /* LetHimComeHere.swift in Sources */,
+				478041FD27CA7718009C6E3E /* Info1.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		478EDE202786084A00BF44DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		478EDE212786084A00BF44DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		478EDE232786084A00BF44DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LeenasEyelash/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = leena.LeenasEyelash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		478EDE242786084A00BF44DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LeenasEyelash/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = leena.LeenasEyelash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		478EDE0F2786084800BF44DE /* Build configuration list for PBXProject "LeenasEyelash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				478EDE202786084A00BF44DE /* Debug */,
+				478EDE212786084A00BF44DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		478EDE222786084A00BF44DE /* Build configuration list for PBXNativeTarget "LeenasEyelash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				478EDE232786084A00BF44DE /* Debug */,
+				478EDE242786084A00BF44DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 478EDE0C2786084800BF44DE /* Project object */;
+}
